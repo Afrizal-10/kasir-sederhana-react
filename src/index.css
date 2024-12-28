@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 17px;
+}
+
+.navbar {
+  background-color: #1227c9;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.category-aktif {
+  background-color: #1227c9;
+  color: white;
+}
+@media only screen and (max-height: 1000px) {
+  .hasil {
+    height: 650px;
+  }
+
+  .menu {
+    height: 800px;
+  }
+}
+
+.overflow-auto::-webkit-scrollbar {
+  display: none;
+}
